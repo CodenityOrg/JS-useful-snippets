@@ -18,4 +18,6 @@ const dayOfYear = date =>
 
 dayOfYear(new Date()); // 272
 
-
+// Find the difference in hours between two dates
+const getHoursDiffBetweenDates = (date1, date2) => Math.abs(date1 - date2) / 36e5;
+getHoursDiffBetweenDates(new Date('2019-01-13'), new Date('2019-01-15'));
